@@ -7,7 +7,9 @@ An experimental prime solving program designed to predict and list all prime num
 
     Timed with an i5-10400 Processor:
 -n = 1,000,000: 0.052 seconds average
+
 -n = 10,000,000: 1.32 seconds average
+
 -n = 100,000,000: 36.9 seconds average
 
 P24 was compared to an optimized trial division algorithm, in which odd numbers within the range of n were divided up to their respective square. The test conducted accounts for inputs between n=100,000 and 100,000,000. In summary, it was found that p24 __consistently outperforms trial division by about 25-40%__. 
