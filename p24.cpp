@@ -20,7 +20,7 @@ int main() {
 
 
     for (int i=0;i<max;i+=basenext){
-        if (base*base<max){
+        if (base<(max/base)){
             list.push_back(base*base);
             baselist.push_back(base);
             altbaselist.push_back(basenext);
